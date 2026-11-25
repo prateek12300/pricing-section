@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Plans</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="pricing-section">
+    <nav class="topbar" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="Flowspace home">
+        <span class="brand-mark">✦</span>
+        <span>flowspace</span>
+      </a>
+      <a class="nav-link" href="#plans">Explore plans <span>↗</span></a>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> SIMPLE, TRANSPARENT PRICING</p>
+        <h1>Make room for<br><span>your next big idea.</span></h1>
+        <p class="subtitle">Less busywork. More brilliant work. Find the plan that helps you move forward.</p>
+        <div class="hero-proof">
+          <span class="proof-avatars"><i>J</i><i>A</i><i>M</i><i>+</i></span>
+          <span><strong>Made for momentum</strong><small>Flexible plans for every kind of team</small></span>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-spark spark-one">✦</div>
+        <div class="art-spark spark-two">✧</div>
+        <div class="art-card art-card-back"><span class="mini-dot"></span><span class="mini-line"></span><span class="mini-line short"></span></div>
+        <div class="art-card art-card-front">
+          <div class="art-card-top"><span>YOUR WEEK, IN FLOW</span><span class="live-dot"></span></div>
+          <div class="progress-title">Big things happen<br>one step at a time.</div>
+          <div class="progress-track"><span></span></div>
+          <div class="progress-foot"><span>Project progress</span><strong>78%</strong></div>
+          <div class="art-checks"><span>✓</span><span>✓</span><span>＋</span></div>
+        </div>
+        <div class="floating-note"><span>✦</span> You're on a roll!</div>
+      </div>
+    </header>
+
+    <div class="section-heading" id="plans">
+      <p class="eyebrow">PLANS THAT GROW WITH YOU</p>
+      <h2>Find your flow.</h2>
+      <p class="subtitle">Start simple, scale when you're ready. No surprises.</p>
+    </div>
+
+    <div class="billing-control" aria-label="Choose billing cycle">
+      <span class="billing-label active" id="monthly-label">Monthly</span>
+      <button class="billing-switch" id="billing-toggle" type="button"
+              role="switch" aria-checked="false" aria-label="Switch to yearly billing">
+        <span class="switch-knob"></span>
+      </button>
+      <span class="billing-label" id="yearly-label">Yearly</span>
+      <span class="save-pill">Save up to 20%</span>
+    </div>
+
+    <section class="plans" aria-label="Available pricing plans">
+      <article class="plan-card">
+        <div class="plan-top">
+          <p class="plan-kicker">GET STARTED</p>
+          <h2>Starter</h2>
+          <p class="plan-description">For personal projects and trying things out.</p>
+          <div class="price-row">
+            <span class="currency">₹</span>
+            <span class="price" data-monthly="199" data-yearly="1,990"
+                  data-monthly-period="/ month" data-yearly-period="/ year">199</span>
+          </div>
+          <p class="billing-note" data-monthly-note="Billed monthly"
+             data-yearly-note="Billed yearly · Save 17%">Billed monthly</p>
+          <a class="plan-button secondary-button" href="#get-started">Get started</a>
+        </div>
+        <div class="features">
+          <p class="features-title">WHAT'S INCLUDED</p>
+          <ul>
+            <li>Up to 3 projects</li>
+            <li>Basic task management</li>
+            <li>Community support</li>
+            <li>1 GB file storage</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="plan-card popular-card">
+        <span class="ribbon popular-ribbon">POPULAR</span>
+        <div class="plan-top">
+          <p class="plan-kicker">MOST CHOSEN</p>
+          <h2>Pro</h2>
+          <p class="plan-description">For people ready to take their productivity further.</p>
+          <div class="price-row">
+            <span class="currency">₹</span>
+            <span class="price" data-monthly="399" data-yearly="3,990"
+                  data-monthly-period="/ month" data-yearly-period="/ year">399</span>
+          </div>
+          <p class="billing-note" data-monthly-note="Billed monthly"
+             data-yearly-note="Billed yearly · Save 17%">Billed monthly</p>
+          <a class="plan-button primary-button" href="#get-started">Choose Pro</a>
+        </div>
+        <div class="features">
+          <p class="features-title">EVERYTHING IN STARTER, PLUS</p>
+          <ul>
+            <li>Unlimited projects</li>
+            <li>Advanced task tools</li>
+            <li>Priority email support</li>
+            <li>20 GB file storage</li>
+            <li>Progress insights</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="plan-card">
+        <span class="ribbon value-ribbon">BEST VALUE</span>
+        <div class="plan-top">
+          <p class="plan-kicker">FOR BIG IDEAS</p>
+          <h2>Business</h2>
+          <p class="plan-description">For teams that want to work better together.</p>
+          <div class="price-row">
+            <span class="currency">₹</span>
+            <span class="price" data-monthly="799" data-yearly="7,990"
+                  data-monthly-period="/ month" data-yearly-period="/ year">799</span>
+          </div>
+          <p class="billing-note" data-monthly-note="Billed monthly"
+             data-yearly-note="Billed yearly · Save 17%">Billed monthly</p>
+          <a class="plan-button secondary-button" href="#get-started">Choose Business</a>
+        </div>
+        <div class="features">
+          <p class="features-title">EVERYTHING IN PRO, PLUS</p>
+          <ul>
+            <li>Team collaboration</li>
+            <li>Shared workspaces</li>
+            <li>Dedicated support</li>
+            <li>100 GB file storage</li>
+            <li>Team activity reports</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <p class="footnote">All prices are sample prices for this demo. No real company or service is represented.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
